@@ -1,0 +1,101 @@
+body
+{
+	background-color: #FFFAFF;
+	margin: 0;
+	padding: 0;
+	padding-top: 10vh;
+}
+
+#login-container
+{
+	width: 40vw;
+	margin: 0 34vw;
+}
+
+#img-font
+{
+	width: 30vw;
+	margin-top: 1vw;
+}
+
+#inputs-container
+{
+	border: solid 0.005vw #DDDDDD;
+	background-color: #FFFFFF;
+	width: 30vw;
+}
+
+.inputs
+{
+	margin: 0.6vw 2.5vw;
+	width: 25vw;
+	height: 3vw;
+	background-color: #FAFAFA;
+	border: solid 0.005vw #DDDDDD;
+	font-size: 1vw;
+	font-family: sans-serif;
+	padding-left: 0.5vw;
+}
+
+#submit-button
+{
+	margin: 2vw 2.5vw;
+	width: 25vw;
+	height: 3vw;
+	border: solid 0.005vw #BEDBED;
+	border-radius: 0.1vw;
+	font-size: 1vw;
+	background-color: #555555;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#forgot-pass-div
+{
+	text-align: center;
+}
+
+#forgot-pass
+{
+	text-decoration: none;
+	color: #333333;
+	font-family: sans-serif;
+	font-size: 1vw;
+}
+
+.signup1
+{
+	font-size: 1vw;
+	color: #777777;
+}
+
+.signup2
+{
+	text-decoration: none;
+	font-size: 1.5vw;
+	font-weight: bold;
+	color: #000000;
+}
+
+#error-msg
+{
+	text-decoration: none;
+	color: #000000;
+	font-size: 0.8vw;
+	font-weight: bold;
+}
+
+.signup-container
+{
+	font-family: sans-serif;
+	border: solid 0.005vw #DDDDDD;
+	background-color: #FFFFFF;
+	margin-top: 0.5vw;
+	line-height: 3vw;
+	width: 30vw;
+	text-align: center;
+	padding: 0.1vw 0;
+}
+
+
+

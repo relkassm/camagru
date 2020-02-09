@@ -1,0 +1,86 @@
+h1
+{
+	margin-left: 5vw;
+	font-size: 3vw;
+	font-family: sans-serif;
+	color: #000000;
+}
+
+#inputs-container
+{
+	margin-left: 20vw;
+	border: solid 0.005vw #DDDDDD;
+	background-color: #FFFFFF;
+	width: 40vw;
+	padding: 3vw;
+}
+
+.inputs
+{
+	float: right;
+	width: 15vw;
+	height: 2vw;
+	background-color: #FAFAFA;
+	border: solid 0.005vw #DDDDDD;
+	font-size: 1vw;
+	padding-left: 0.5vw;
+	font-family: sans-serif;
+}
+
+.con-input
+{
+	display: inline-block;
+	width: 38vw;
+	margin: 1vw;
+}
+
+a
+{
+	font-size: 1.5vw;
+	width: 20vw;
+	font-family: sans-serif;
+	font-weight: bold;
+	display: inline-block;
+}
+
+#update-button
+{
+	float: right;
+	width: 15vw;
+	height: 2vw;
+	border: solid 0.005vw #BEDBED;
+	border-radius: 0.1vw;
+	font-size: 1vw;
+	background-color: #000000;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0;
+}
+
+#submit-button
+{
+	float: right;
+	width: 15vw;
+	height: 2vw;
+	border: solid 0.005vw #BEDBED;
+	border-radius: 0.1vw;
+	font-size: 1vw;
+	background-color: #000000;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0;
+}
+
+#password-button
+{
+	float: right;
+	width: 15vw;
+	height: 2vw;
+	border: solid 0.005vw #BEDBED;
+	border-radius: 0.1vw;
+	font-size: 1vw;
+	background-color: #000000;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0;
+}

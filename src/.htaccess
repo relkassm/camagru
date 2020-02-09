@@ -1,0 +1,19 @@
+<Files "database.php">  
+  Deny from all
+</Files>
+
+<Files "setup.php">  
+  Deny from all
+</Files>
+
+<Files "header.php">  
+  Deny from all
+</Files>
+
+<Files "header2.html">  
+  Deny from all
+</Files>
+
+<Files "footer.html">  
+  Deny from all
+</Files>

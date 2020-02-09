@@ -1,0 +1,32 @@
+.container
+{
+	width: 50vw;
+	background-color: #FFFFFF;
+	border: solid 0.005vw #DDDDDD;
+	margin: auto;
+	margin-top: 5vw;
+	padding: 2vw 1vw;
+
+}
+
+a
+{
+	font-size: 2vw;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+
+#switch1
+{
+	height: 3vw;
+	float: right;
+	display: block;
+}
+
+#switch2
+{
+	height: 3vw;
+	float: right;
+	display: block;
+}

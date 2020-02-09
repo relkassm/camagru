@@ -1,0 +1,140 @@
+#cam-container
+{
+	background-color: #FFFFFF;
+	border: 0.1vw solid #DDDDDD;
+	float: left;
+	margin-left: 2vw;
+}
+
+#gallery
+{
+	background-color: #FFFFFF;
+	border: 0.1vw solid #DDDDDD;
+	margin-left: 5vw;
+	float: left;
+}
+
+#filters
+{
+	margin-left: 5vw;
+	float: left;
+}
+
+#pokemonat
+{
+	margin-left: 10vw;
+	float: left;
+}
+
+#video
+{
+	width: 40vw;
+	height: 30vw;
+}
+
+#pic-container
+{
+	display: none;
+	width: 40vw;
+}
+
+#pic-container2
+{
+	display: none;
+	height: 30vw;
+	max-width: 40vw;
+	margin: 0 auto;
+	background-color: black;
+}
+
+.pic-button
+{
+	display: block;
+	margin: auto;
+	margin: 0.5vw 0;
+	background-color: #555555;
+	color: #FFFFFF;
+	width: 40vw;
+	height: 4vw;
+	font-size: 2vw;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: solid #555555 0.1vw;
+
+}
+
+.pics
+{
+	width: 8vw;
+	height: 6vw;
+	display: block;
+	margin: 0;
+}
+
+.nav
+{
+	width: 8vw;
+	height: 2vw;
+	display: inline;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1vw;
+	text-align: center;
+}
+
+.check
+{
+	display: block;
+	margin: auto;
+	height: 1vw;
+	size: 1vw;
+}
+
+#delete
+{
+	background-color: red;
+}
+
+#inp
+{
+	display: block;
+	font-size: 1vw;
+	width: 40vw;
+}
+
+.cities
+{
+	width: 5vw;
+	height: 5vw;
+	margin: 1vw 0;
+	border: solid #DDDDDD 0.1vw;
+	display: block;
+	text-decoration: none;
+}
+
+.pokemon
+{
+	width: 3vw;
+	height: 3vw;
+	margin: 1.2vw 0;
+	border: solid #DDDDDD 0.1vw;
+	display: block;
+	text-decoration: none;
+}
+
+#body-container
+{
+	height: 100vh;
+}
+
+#video 
+{
+	transform: scale(-1, 1);
+}
+
+#save-button
+{
+	background: #000000;
+}

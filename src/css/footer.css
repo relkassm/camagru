@@ -1,0 +1,26 @@
+#bottom-bar
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #FFFFFF;
+	height: 3vw;
+	width: 100%;
+	border: solid 0.005vw #DDDDDD;
+	display: inline-block;
+	z-index:1;
+}
+
+#bot-right
+{
+	float: right;
+	margin-top: 1.8vw;
+	margin-right: 0.5vw;
+}
+
+#cp
+{
+	font-size: 0.8vw;
+	font-family: sans-serif;
+	font-weight: bold;
+}

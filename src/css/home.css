@@ -1,0 +1,117 @@
+.container-feed
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 5vw;
+	background-color: #FFFFFF;
+	border: 0.1vw solid #DDDDDD;
+	width: 40vw;
+	overflow: hidden;
+}
+
+.img-feed
+{
+	text-align: center;
+	width: 40vw;
+	display: block;
+}
+
+h2
+{
+	font-size: 2vw;
+	margin-left: 0.2vw;
+	font-family: sans-serif;
+	display: block;
+}
+
+.right-bot
+{
+	font-size: 1vw;
+	float: right;
+	font-family: sans-serif;
+	display: inline-block;
+	font-weight: bold;
+	margin: 0.2vw;
+}
+
+.r-b
+{
+	float: right;
+}
+
+.gg
+{
+	font-size: 0;
+}
+
+.heart-off
+{
+	height: 3vw;
+	width: 3vw;
+	margin: 0.1vw 0.1vw;
+}
+
+.comment-off
+{
+	height: 3vw;
+	width: 3vw;
+	margin: 0.1vw 0.1vw;
+}
+
+.lik-con
+{
+	padding: 0.2vw;
+}
+
+.com-con
+{
+	display:none;
+	padding: 1vw 0;
+}
+
+.comment
+{
+	width: 30vw;
+	height: 2vw;
+	font-size: 0.8vw;
+	margin-left: 2vw;
+	padding: 0;
+}
+
+.submit-comment
+{
+	height: 2vw;
+	width: 5vw;
+	font-size: 0.8vw;
+	margin-left: 2vw;
+	color: #FFFFFF;
+	background-color: #000000;
+	float: right;
+	border: solid 0.005vw #BEDBED;
+	padding: 0;
+}
+
+.comment-display
+{
+	display: none;
+}
+
+.single-comment
+{
+	margin-left: 1vw;
+	font-size: 1vw;
+}
+
+#navigation
+{
+	text-align: center;
+}
+
+.input-page
+{
+	background: #000000;
+	height: 2vw;
+	width: 2vw;
+	color: #FFFFFF;
+	font-size: 1vw;
+}

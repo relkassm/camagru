@@ -1,0 +1,27 @@
+docker run -it -d -p "80:80" -v ${PWD}:/app --name camagru mattrayner/lamp:latest-1804
+
+bash in container
+docker exec -it camagru bash
+
+install mailutilities/postfix
+first
+apt-get update
+second
+apt-get install mailutils
+third 
+vim /etc/postfix/main.cf
+change at the bottom of the file
+inet_interfaces = all
+into 
+inet_interfaces = loopback-only
+fourth
+service postfix restart
+to test 
+echo "This is the body of the email" | mail -s "This is the subject line" nejap67249@xmailsme.com
+
+configure mysql
+docker exec -it camagru bash (if not already)
+
+mysql
+CREATE USER 'mgb'@'localhost' IDENTIFIED BY 'yikes';
+GRANT ALL PRIVILEGES ON * . * TO 'mgb'@'localhost' IDENTIFIED BY 'yikes';
